@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tweaks2in1",
+  "version": "${version}",
+  "name": "Tweaks 2 in 1",
+  "description": "Freecam + X-Ray in one lightweight client mod.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.tweaks.twoinone.Tweaks2in1"] },
+  "mixins": ["tweaks2in1.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

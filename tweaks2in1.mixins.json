@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.tweaks.twoinone.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockMixin",
+    "CameraMixin",
+    "EntityMixin",
+    "KeyboardInputMixin",
+    "SimpleOptionMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
